@@ -5,17 +5,14 @@
   "commands": {
     "Grunt Serve": "grunt serve",
     "Grunt Test": "grunt test",
-    "Grunt Build": "grunt",
+    "Grunt Build": "grunt build",
     "Grunt Serve:Dist": "grunt serve:dist",
     "Guardar": "sh guardar.sh"
   },
 
 // Preview button configuration
   "preview": {
-        "Yeoman Demo": "http://{{domain}}:9000/",
-        "Project Index (static)": "https://{{domain}}/{{index}}",
-        "Current File (static)": "https://{{domain}}/{{filepath}}",
-        "Box URL": "http://{{domain}}:3000/",
-        "Box URL SSL": "https://{{domain}}:9500/"
+        "Yeoman Demo": "http://{{domain}}:9000/"
+       
   }
 }
